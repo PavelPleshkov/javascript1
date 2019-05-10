@@ -25,6 +25,13 @@ for (let i = 0; i <= 10; i++) {
     console.log(i + setPhraze(i));
 }
 
+/**
+ * Функция выводит фразу в зависимости от значения параметра,
+ * переданного в аргумент num
+ *
+ * @param {number} num
+ * @returns {string} phraze
+ */
 function setPhraze(num) {
     let phraze = '';
     if (num == 0) {
